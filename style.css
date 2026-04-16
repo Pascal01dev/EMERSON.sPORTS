@@ -144,7 +144,7 @@ header{
 .reel-section .video-container{
   width: 90%;
   height: 60vh;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 .reel-section video{
