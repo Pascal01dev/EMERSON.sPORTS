@@ -99,25 +99,62 @@ header{
 
 /* SECTIONS */
 .about-section {
+  width:100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 60px 20px;
   text-align: center;
+  /* background-color: red; */
 }
 
-.dark {
+.about-section-content{
+  width:90%;
+  display:flex;
+  gap: 50px;
+  /* background-color: green; */
+}
+
+.about-section .about-section-img{
+  width: 40%;
+  /* background-color: yellow; */
+}
+
+.about-section-img img{
+  width:100%;
+  height: auto;
+}
+
+.about-section .about-section-text{
+  width: 60%;
+  text-align: left;
+  /* background-color: yellow; */
+}
+
+/* REEL */
+
+.reel-section{
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
   background: #111;
   color: #fff;
 }
 
-/* VIDEO */
-.video-container {
-  max-width: 800px;
-  margin: auto;
+.reel-section .video-container{
+  width: 90%;
+  height: 60vh;
+  background-color: yellow;
 }
 
-.video-container iframe {
+.reel-section video{
   width: 100%;
-  height: 400px;
+  height: 100%;
 }
+
+
+
+
 
 /* BLOG */
 .blog-container {
